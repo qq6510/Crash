@@ -38,6 +38,7 @@
 ```shell
 #GitHub源(可能需要代理)
 export url='https://raw.githubusercontent.com/qq6510/Crash/main' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile > /dev/null
+```
 
 ~**路由设备使用wget安装**：<br>
 
