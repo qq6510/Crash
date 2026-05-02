@@ -37,15 +37,13 @@
 
 ```shell
 #GitHub源(可能需要代理)
-export url='https://raw.githubusercontent.com/qq65x/Crash/master' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile &> /dev/null
-```
-
+export url='https://raw.githubusercontent.com/qq6510/Crash/main' && sh -c "$(curl -kfsSl $url/install.sh)" && source /etc/profile > /dev/null
 
 ~**路由设备使用wget安装**：<br>
 
 ```Shell
 #GitHub源(可能需要代理)
-export url='https://raw.githubusercontent.com/qq65x/Crash/master' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
+export url='https://raw.githubusercontent.com/qq6510/Crash/main' && wget -q --no-check-certificate -O /tmp/install.sh $url/install.sh  && sh /tmp/install.sh && source /etc/profile &> /dev/null
 ```
 
 
