@@ -73,4 +73,17 @@ crontab			较低		缺少时无法启用定时任务功能
 net-tools		极低		缺少时无法正常检测端口占用
 ubus/iproute-doc	极低		缺少时无法正常获取本机host地址
 ```
+注意事项
+每次升级固件或重置固件后，都需要先telnet，再在telnet中开启ssh。
+
+具体方法为：
+
+使用MobaXterm通过telnet连接路由器，用户名为root，密码为初始密码，输入后即可登入路由器telnet后台。
+
+
+
+通过telnet开启ssh，并修改root密码为admin：
+
+sed -i '/flg_ssh=`nvram get ssh_en`/{:loop; N; /\n.*channel=`\/sbin\/uci get \/usr\/share\/xiaoqiang\/xiaoqiang_version.version.CHANNEL`\n.*return 0\n.*fi/!b loop; d}' /etc/init.d/dropbear
+/etc/init.d/dropbear restart
 
