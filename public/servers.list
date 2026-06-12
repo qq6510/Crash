@@ -1,12 +1,10 @@
 # ID&类型 说明 地址 其他说明 (类型：100-三版全通源;200-单一源;300-基础sub;400-meta_sub;500-规则地址)
 
-101 Jsdelivr_CDN源 https://fastly.jsdelivr.net/gh/juewuy/ShellCrash
+101 Jsdelivr_CDN源 https://raw.githubusercontent.com/qq6510/Crash
 102 Github直连源(请注意网络环境) https://raw.githubusercontent.com/qq6510/Crash
 103 ShellClash自建源(请勿滥用!) https://gh.jwsc.eu.org
-104 Cloudflare_CDN源 https://testingcf.jsdelivr.net/gh/juewuy/ShellCrash
+104 Cloudflare_CDN源 https://raw.githubusercontent.com/qq6510/Crash
 
-201 wwng2333自建CN源(请勿滥用!)  https://mirrors.csgo.ovh/ShellClash 公测版
-202 http私人内测源(危险!非必要请勿使用)  http://t.jwsc.eu.org 开发版
  
 497 作者提供,未加密仅备用 http://sub2.jwsc.eu.org  
 498 本地服务器 http://127.0.0.1:25500  
