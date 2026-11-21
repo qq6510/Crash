@@ -74,3 +74,9 @@ ubus/iproute-doc	极低		缺少时无法正常获取本机host地址
 sed -i '/flg_ssh=`nvram get ssh_en`/{:loop; N; /\n.*channel=`\/sbin\/uci get \/usr\/share\/xiaoqiang\/xiaoqiang_version.version.CHANNEL`\n.*return 0\n.*fi/!b loop; d}' /etc/init.d/dropbear
 /etc/init.d/dropbear restart
 ```
+
+
+mkdir -p /data/auto_ssh
+curl -fo /data/auto_ssh/auto_ssh.sh -L https://cdn.jsdelivr.net/gh/lemoeo/AX6S@main/auto_ssh.sh
+chmod +x /data/auto_ssh/auto_ssh.sh
+/data/auto_ssh/auto_ssh.sh install
